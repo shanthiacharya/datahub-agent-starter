@@ -25,8 +25,9 @@ them via search first."""
 # --- Challenge 1: Agents That Do Real Work (this demo) --------------------------------
 GOAL = """Look at the healthcare datasets in DataHub. Find one that has a data-quality
 problem or is missing an owner. Investigate it (schema, lineage, ownership), then take
-action: tag it `needs-review` and update its description to note the issue you found.
-Report which dataset you flagged and why."""
+action: tag it `needs-review`, update its description to note the issue you found, and
+assign `urn:li:corpuser:datahub` as an owner of the dataset.
+Report which dataset you flagged, why, and what owner you assigned."""
 
 
 # --- Swap GOAL above for one of these to target another challenge ---------------------
